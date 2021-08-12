@@ -12,8 +12,11 @@
   <ConditionalRendaring />
   <ForLoop />
   <PassDataToChildComponent />
-  -->
   <ReuseComponent />
+  <HtmlBinding />
+  <ClassBinding />
+  -->
+  <Props />
 </div>
 </template>
 
@@ -27,8 +30,11 @@ import GetCheckBoxAndRadioValues from './components/Part-5-GetCheckBoxAndRadioVa
 import ConditionalRendaring from './components/Part-6-ConditionalRendaring.vue'
 import ForLoop from './components/Part-7-ForLoop.vue'
 import PassDataToChildComponent from './components/Part-8-PassDataToChildComponent.vue'
- */
 import ReuseComponent from './components/Part-9-ReuseComponent.vue'
+import HtmlBinding from './components/Part-10-HtmlBinding.vue'
+import ClassBinding from './components/Part-11-ClassBinding.vue'
+ */
+import Props from './components/Part-12-Props.vue'
 
 
 
@@ -44,8 +50,11 @@ export default {
     ConditionalRendaring,
     ForLoop, 
     PassDataToChildComponent,
+    ReuseComponent,
+    HtmlBinding,
+    ClassBinding,
   */
-    ReuseComponent
+    Props
   }
 }
 </script>
