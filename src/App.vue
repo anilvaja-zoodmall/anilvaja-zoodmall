@@ -11,8 +11,9 @@
   <GetCheckBoxAndRadioValues />
   <ConditionalRendaring />
   <ForLoop />
-  -->
   <PassDataToChildComponent />
+  -->
+  <ReuseComponent />
 </div>
 </template>
 
@@ -25,9 +26,9 @@ import GetInputValues from './components/Part-4-GetInputValues.vue'
 import GetCheckBoxAndRadioValues from './components/Part-5-GetCheckBoxAndRadioValues.vue',
 import ConditionalRendaring from './components/Part-6-ConditionalRendaring.vue'
 import ForLoop from './components/Part-7-ForLoop.vue'
+import PassDataToChildComponent from './components/Part-8-PassDataToChildComponent.vue'
  */
-import PassDataToChildComponent from './components/Part-8-PassDataToChildComponent'
-
+import ReuseComponent from './components/Part-9-ReuseComponent.vue'
 
 
 
@@ -42,8 +43,9 @@ export default {
     GetCheckBoxAndRadioValues,
     ConditionalRendaring,
     ForLoop, 
+    PassDataToChildComponent,
   */
-    PassDataToChildComponent    
+    ReuseComponent
   }
 }
 </script>

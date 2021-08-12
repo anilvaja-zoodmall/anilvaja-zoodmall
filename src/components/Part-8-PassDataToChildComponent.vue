@@ -16,7 +16,8 @@ export default {
     },
     methods: {
         getData() {
-            console.warn('Parent function called')
+            console.warn('Parent function called');
+            alert('getData called from other page')
         },
     },
 }
